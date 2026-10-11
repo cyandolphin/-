@@ -63,8 +63,8 @@
 const stalls={
 meat:{name:'肉攤',items:[['🥩','豬絞肉','ground pork','assets/food/ground-pork.jpg'],['🍗','雞腿','chicken drumstick','assets/food/chicken-roasted.jpeg'],['🥓','培根','bacon','assets/food/bacon.jpg'],['🍖','牛排','beef steak','assets/food/beef-tbone.jpg'],['🌭','香腸','sausage','assets/food/sausage.jpg']]},
 vegetable:{name:'菜攤',items:[['🟢','豌豆','peas'],['🥕','紅蘿蔔','carrot'],['🥬','菠菜','spinach'],['🌽','玉米','corn'],['🥦','花椰菜','cauliflower']]},
-fruit:{name:'水果攤',items:[['🍎','蘋果','apple pile','assets/food/apple-pile.webp'],['🍌','香蕉','banana pile','assets/food/banana-pile.jpg'],['🍊','橘子','orange pile','assets/food/orange-pile.jpg'],['🍇','葡萄','grapes pile','assets/food/grapes-pile.jpg'],['🍉','西瓜','watermelon pile','assets/food/watermelon-pile.jpg']]},
-seafood:{name:'海鮮攤',items:[['🐟','魚','whole fish','assets/food/fish.jpg'],['🦐','蝦子','cooked shrimp','assets/food/shrimp-cooked.jpg'],['🦀','螃蟹','crab','assets/food/crab.jpg'],['🦪','蛤蜊','clams','assets/food/clams.webp'],['🦑','透抽','squid','assets/food/squid.jpg']]},
+fruit:{name:'水果攤',items:[['🍎','蘋果','apple pile','apple-pile.webp'],['🍌','香蕉','banana pile','banana-pile.jpg'],['🍊','橘子','orange pile','orange-pile.jpg'],['🍇','葡萄','grapes pile','grapes-pile.jpg'],['🍉','西瓜','watermelon pile','watermelon-pile.jpg']]},
+seafood:{name:'海鮮攤',items:[['🐟','魚','whole fish','assets/food/fish.jpg'],['🦐','蝦子','cooked shrimp','shrimp-cooked.jpg'],['🦀','螃蟹','crab','assets/food/crab.jpg'],['🦪','蛤蜊','clams','assets/food/clams.webp'],['🦑','透抽','squid','assets/food/squid.jpg']]},
 dry:{name:'乾貨攤',items:[['🍄','香菇','dried shiitake mushroom','assets/food/shiitake.jpg'],['🥜','花生','peanuts','assets/food/peanuts.jpg'],['🫘','紅豆','red beans','assets/food/redbeans.jpg'],['🍚','白米','rice grains','assets/food/rice.jpg'],['🍜','麵條','noodles','assets/food/noodles.png']]}
 };
 const all=Object.entries(stalls).flatMap(([stall,data])=>data.items.map(([emoji,name,photo,photoUrl])=>({stall,emoji,name,photo,photoUrl})));
